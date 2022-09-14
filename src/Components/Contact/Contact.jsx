@@ -16,20 +16,20 @@ export default function Contact() {
 <a href='#'>Instagram</a>
 </li> */}
 <li id='item-tres'>
-<a href='https://api.whatsapp.com/send/?phone=%2B543516137592&text&type=phone_number&app_absent=0' target='blank'>whatsApp</a>
+<a href='https://api.whatsapp.com/send/?phone=%2B543516137592&text&type=phone_number&app_absent=0' target='_blank'>whatsApp</a>
 {/* <a href='wa.me/+543516137592' target='blank'>whatsApp</a> */}
 </li>
 
 <li id='item-cuatro'>
-<a href='https://www.linkedin.com/in/diegopizarro10/' target='blank'>Linkedlin</a>
+<a href='https://www.linkedin.com/in/diegopizarro10/' target='_blank'>Linkedlin</a>
 </li>
 
 <li id='item-cinco'>
-<a href={CV_Diego} target='blank'>Ver cv</a>
+<a href={CV_Diego} target='_blank'>Ver cv</a>
 </li>
 
 <li id='item-seis'>
-<a href='https://github.com/diegop1zarro' target='blank'>Github</a>
+<a href='https://github.com/diegop1zarro' target='_blank'>Github</a>
 </li>
 </ul>
 
