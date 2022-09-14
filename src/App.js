@@ -1,23 +1,20 @@
 import logo from './logo.svg';
+import { Route, Routes } from "react-router-dom";
+// import SideBar from './Components/SideBar/SideBar.jsx';
+// import About from './Components/About/About';
+import All from './Components/All/All';
+// import Carousel from './Components/Carousel/Carousel.jsx'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    {/* <SideBar/> */}
+     <Routes>
+      {/* <Route path="" element={<About/>}/> */}
+      {/* <Route path="" element={<Carousel/>}/> */}
+      <Route path="" element={<All/>}/> 
+    </Routes>
     </div>
   );
 }

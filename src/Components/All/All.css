@@ -1,0 +1,80 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:800);
+
+.All{
+    margin: 10px;
+}
+.All_Title{
+    background-position:0 100% ;
+    background-repeat: no-repeat;
+    -webkit-background-size: 100% 4px;
+    -moz-background-size: 100% 4px;
+    background-size: 100% 4px;
+    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiB2aWV3Qm94PSIwIDAgMSAxIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIj48bGluZWFyR3JhZGllbnQgaWQ9Imxlc3NoYXQtZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPjxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiMzYWNmZDUiIHN0b3Atb3BhY2l0eT0iMSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzNhNGVkNSIgc3RvcC1vcGFjaXR5PSIxIi8+PC9saW5lYXJHcmFkaWVudD48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2xlc3NoYXQtZ2VuZXJhdGVkKSIgLz48L3N2Zz4=),url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiB2aWV3Qm94PSIwIDAgMSAxIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIj48bGluZWFyR3JhZGllbnQgaWQ9Imxlc3NoYXQtZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPjxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiMzYWNmZDUiIHN0b3Atb3BhY2l0eT0iMSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzNhNGVkNSIgc3RvcC1vcGFjaXR5PSIxIi8+PC9saW5lYXJHcmFkaWVudD48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2xlc3NoYXQtZ2VuZXJhdGVkKSIgLz48L3N2Zz4=);
+    background-image: -webkit-linear-gradient(left, #3a0000 0%, #669bbc 100%), -webkit-linear-gradient(left, #3a0000 0%, #669bbc 100%);
+    background-image: -moz-linear-gradient(left, #3a0000 0%, #669bbc 100%), -moz-linear-gradient(left, #3a0000 0%, #669bbc 100%);
+    background-image: -o-linear-gradient(left, #3a0000 0%, #669bbc 100%), -o-linear-gradient(left, #3a0000 0%, #669bbc 100%);
+    background-image: linear-gradient(to right, #3a0000 0%, #669bbc 100%), linear-gradient(to right, #3a0000 0%, #669bbc 100%);
+}
+.All_Title:hover{
+    background-image: -webkit-linear-gradient(left,  #669bbc 0%,#3a0000 100%), -webkit-linear-gradient(left, #669bbc 0%,#3a0000 100%);
+    background-image: -moz-linear-gradient(left, #669bbc 0%,#3a0000 100%), -moz-linear-gradient(left, #669bbc 0%,#3a0000 100%);
+    background-image: -o-linear-gradient(left, #669bbc 0%,#3a0000 100%), -o-linear-gradient(left, #669bbc 0%,#3a0000 100%);
+    background-image: linear-gradient(to right, #669bbc 0%,#3a0000 100%), linear-gradient(to right, #669bbc 0%,#3a0000 100%);
+}
+
+
+.text {
+  fill:#007fc4;
+  fill: none;
+  stroke-width: 2;
+  stroke-linejoin: round;
+  stroke-dasharray: 70 330;
+  stroke-dashoffset: 0;
+  -webkit-animation: stroke 7s infinite linear;
+  animation: stroke 7s infinite linear;
+  font-size: 100px;
+  
+}
+
+.text:nth-child(5n + 1) {
+  stroke: #780000;
+  -webkit-animation-delay: -1.2s;
+  animation-delay: -1.2s;
+}
+.text:nth-child(5n + 2) {
+  stroke: #003049;
+  -webkit-animation-delay: -2.4s;
+  animation-delay: -2.4s;
+}
+
+.text:nth-child(5n + 3) {
+  stroke: #669bbc;
+  -webkit-animation-delay: -3.6s;
+  animation-delay: -3.6s;
+}
+
+.text:nth-child(5n + 4) {
+  stroke: #669bbc;
+  -webkit-animation-delay: -4.8s;
+  animation-delay: -4.8s;
+}
+
+.text:nth-child(5n + 5) {
+  stroke: #fdf0d5;
+  -webkit-animation-delay: -6s;
+  animation-delay: -6s;
+}
+
+@-webkit-keyframes stroke {
+  100% {
+    stroke-dashoffset: -400;
+  }
+}
+
+@keyframes stroke {
+  100% {
+    stroke-dashoffset: -400;
+  }
+} 
+
+

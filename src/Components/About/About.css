@@ -1,0 +1,77 @@
+.About{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 40px;
+    border-top: #3a0000 5px solid;
+    border-right: #fdf0d5 5px solid;
+    border-bottom: #001c2b 5px solid;
+    border-left: #669bbc 5px solid;
+}
+/* .About:hover{
+    transition: 0.5s;
+    box-shadow: 0px 0px 8px 6px #242424;
+} */
+.About h2{
+    background: linear-gradient(#fdf0d5,#669bbc);
+    background-clip: text;
+    color: transparent; 
+    text-align: center;
+    font-size: 60px;
+}
+
+.About h2:hover{
+    transition: 0.5s;
+    /* font-size: 80px; */
+    background: linear-gradient(#fdf0d5,#c1121f); 
+     background-clip: text; 
+     color: transparent; 
+    }
+.About h3{
+    color:#fdf0d5;
+
+}
+.About h3:hover{
+transition: 0.5s;
+font-size: 60px;
+}
+.About_MContainer{
+    display: flex ;
+    padding: 5px;
+}
+.About_MContainer p{
+    font-size: 30px;
+    /* color:white; */
+    color:#fdf0d5;
+    /* background-color: white; */
+}
+.About img{
+    width: 250px;
+    height: auto;
+    margin: 8px;
+    object-fit: cover;
+    /* box-shadow: 1px 1px 8px 1px #669bbc; */
+}
+.cinta {
+    position: relative;
+    text-align: center;
+    display: inline-block; *display: inline; zoom: 1;
+    margin: 20px auto 10px;
+    }
+    .uno:before,
+    .dos:before, .dos:after,
+    .tres:before, .tres:after,
+    .cuatro:before, .cuatro:after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 30px;
+    position: relative;
+    top: 20px;
+    margin: auto;
+    background: rgba(255,255,200,0.6);
+    -webkit-box-shadow: 0px 1px 3px rgba(0,0,0,0.4);
+    -moz-box-shadow: 0px 1px 3px rgba(0,0,0,0.4);
+    box-shadow: 0px 1px 3px rgba(0,0,0,0.4);
+    }
+    

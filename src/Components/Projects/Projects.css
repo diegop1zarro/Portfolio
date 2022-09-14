@@ -1,0 +1,65 @@
+.Projects{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 50px;
+    color: white;
+    background-image:linear-gradient(to bottom right,#002f49dc,#780000d5) ,url('../../descargaProjects.jpg');
+    /* background-image:linear-gradient(to bottom right,#fdf0d5,#669bbc,#002f49a6,#780000ef) ,url('../../descargaProjects.jpg'); */
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-attachment:fixed;
+    object-fit: cover;
+}
+/* .Projects:hover{
+    transition: 0.5s;
+    background-image:linear-gradient(to bottom right,#003049, #669bbc,#c1121f,#780000);
+} */
+h2{
+    background: linear-gradient(#fdf0d5,#669bbc);
+    background-clip: text;
+    color: transparent; 
+    font-size: 50px;
+    margin-bottom:20px;
+    /* text-decoration: underline rgba(247, 9, 9, 0.301); */
+}
+h2:hover{
+    transition: 0.5s;
+    background: linear-gradient(#fdf0d5,#c1121f); 
+     background-clip: text; 
+     color: transparent; 
+    font-size: 80px;
+    /* margin:0 auto; */
+}
+
+.Projects_img{
+    width: 400px;
+    height: auto;
+    box-shadow: 1px 1px 8px 1px cadetblue;
+    object-fit: cover;
+    margin-right: 10px;
+    transition: 0.5s;
+}
+.Projects_img:hover {
+  transform: scale(1.3);
+    /* width: 600px; */
+}
+.Projects_container{
+    display: flex;
+    margin:0 auto;
+    width: 70%;
+}
+.Projects_container p{
+    font-size: 25px;
+}
+.projects_svg{
+    width:80px;
+}
+a{
+    text-decoration-color: #669bbc;
+}
+h4{
+    color: beige;
+    font-size: 30px;
+    text-decoration: none;
+}
