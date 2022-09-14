@@ -63,3 +63,17 @@ h4{
     font-size: 30px;
     text-decoration: none;
 }
+@media screen and (max-width: 500px) {
+.Projects_container{
+    display: block;
+}
+.Projects_container p {
+    font-size: 13px;
+}
+.Projects_img{
+    width: 200px;
+}
+h4{
+    font-size: 20px;
+}
+}
