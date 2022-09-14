@@ -24,7 +24,7 @@
 
 
 .text {
-  fill:#007fc4;
+  /* fill:#007fc4; */
   fill: none;
   stroke-width: 2;
   stroke-linejoin: round;
@@ -78,3 +78,11 @@
 } 
 
 
+@media screen and (max-width: 500px) {
+.text{
+  font-size: 100px;
+}
+.All_Title{
+  padding:10px ;
+}
+}
