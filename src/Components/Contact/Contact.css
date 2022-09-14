@@ -90,3 +90,18 @@ font: normal 13px arial, helvetica, sans-serif;
     #item-seis a:hover {
     background:#9900ff;
     }
+
+@media screen and (max-width: 500px) {
+    /* #menu ul li {
+        margin: 0;
+        float:none;
+        } */
+        #menu ul li a {
+            display:inline;
+            text-decoration: none;
+            }
+        #body{
+                margin-left: 0px;
+                font-size: 10px;
+            }
+}

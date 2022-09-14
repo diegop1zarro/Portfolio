@@ -75,3 +75,17 @@ font-size: 60px;
     box-shadow: 0px 1px 3px rgba(0,0,0,0.4);
     }
     
+@media screen and (max-width: 500px) {
+    .About_MContainer{
+        display: block;
+    }
+    .About_MContainer p {
+        font-size: 13px;
+    }
+    .About img{
+        width: 200px;
+    }
+    h2{
+        font-size: 50px;
+    }
+}
