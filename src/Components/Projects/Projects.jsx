@@ -17,11 +17,20 @@ export default function Projects() {
       <h4>Dogs</h4>
       </a>
             </div>
+       <div className='tecnologías'>
       <p>Proyecto individual "SPA" utilizando API "the dogs api".
-
-        BackEnd y base de DAtos: SQL, NodeJs, sequelize, express, JS.
-        FrontEnd: React, Redux, JS, HTML, CSS
       </p>
+      <p>Tecnologías utilizadas:</p>
+      <span>SQL</span>
+      <span>NodeJS</span>
+      <span>Sequelize</span>
+      <span>PostgresSQL</span>
+      <span>Javascript</span>
+      <span>React</span>
+      <span>Redux</span>
+      <span>CSS</span>
+      <span>HTML</span>
+      </div>
         </div>
         
         <a href='https://github.com/diegop1zarro/proyect-Dogs' target='_blank' size="small">
@@ -45,7 +54,6 @@ export default function Projects() {
         Este proyecto fue realizado para el proyecto final de Henry, consta de un E-commerce de zapatillas, el cual nos permite logearnos, agregar productos a nuestro carrito, ver estado de nuestra compra, etc. También cuenta con panel de Administrador para añadir productos, categorías, marcas, cambiar el estado de compras, etc. 
       </p>
        </div> 
-       
        <a href='https://github.com/alemosmusi/ecommerce' target='_blank' size="small">
        <h4>Repositorio 
       <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" className="projects_svg" viewBox="0 0 16 16">
@@ -61,10 +69,20 @@ export default function Projects() {
       <a href='https://videogame-app.vercel.app' target='_blank' size="small">
       <h4>Videogames</h4>
       </a>
-            </div>
-      <p>Proyecto individual "SPA" utilizando API de videogames "Rawg".
-        BackEnd y base de DAtos: SQL, NodeJs, sequelize, express, JS.
-        FrontEnd: React, Redux, JS, HTML, CSS</p>
+       </div>
+       <div className='tecnologías'>
+      <p>Proyecto individual "SPA" utilizando API de videogames "Rawg". </p>
+      <p>Tecnologías utilizadas:</p>
+      <span>SQL</span>
+      <span>NodeJS</span>
+      <span>Sequelize</span>
+      <span>PostgresSQL</span>
+      <span>Javascript</span>
+      <span>React</span>
+      <span>Redux</span>
+      <span>CSS</span>
+      <span>HTML</span>
+       </div>
         </div>
         <a href=' https://github.com/diegop1zarro/proyect-videogames' target='_blank' size="small">
         <h4>
