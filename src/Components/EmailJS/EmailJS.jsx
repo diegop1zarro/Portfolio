@@ -35,13 +35,13 @@ const handleInput = (e)=>{
 console.log(input)
   return (
     <form className='form' ref={form} onSubmit={sendEmail}>
-      <label>Name</label>
+      <label>Nombre :</label>
       <input type="text" name="user_name" onChange={e=>handleInput(e)} value={input.user_name} />
-      <label>Email</label>
+      <label>Email :</label>
       <input type="email" name="user_email" onChange={e=>handleInput(e)} value={input.user_email} />
-      <label>Message</label>
+      <label>Mensaje :</label>
       <textarea name="message" onChange={e=>handleInput(e)} value={input.message} />
-      <input type="submit" value="Send" />
+      <input type="submit" value="enviar" />
     </form>
   );
 };

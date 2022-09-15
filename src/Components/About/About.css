@@ -88,4 +88,7 @@ font-size: 60px;
    .About h2{
         font-size: 45px;
     }
+    .About h2:hover{
+        font-size: 60px;
+    }
 }
