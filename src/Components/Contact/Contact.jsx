@@ -1,10 +1,12 @@
 import React from 'react'
 import CV_Diego from '../../CV_Diego.pdf'
+import EmailJS from '../EmailJS/EmailJS'
 import './Contact.css'
 export default function Contact() {
   return (
     <div className='Contact'>
     <h2>Mis redes y contacto</h2>
+    <EmailJS/>
    <div id='body'>
  <div id='menu'>
  <ul>
