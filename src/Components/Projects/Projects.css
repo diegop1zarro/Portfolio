@@ -76,7 +76,7 @@ h4{
 }
 @media screen and (max-width: 500px) {
 .Projects_container{
-    display: block;
+    display:flex;
 }
 .Projects_container p {
     font-size: 15px;
