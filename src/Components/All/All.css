@@ -80,7 +80,10 @@
 
 @media screen and (max-width: 500px) {
 .text{
-  font-size: 150px;
+  font-size: 200px;
+  -webkit-animation: stroke 3s infinite linear;
+  animation: stroke 3s infinite linear;
+  stroke-width: 3;
 }
 .All_Title{
   padding:10px ;
