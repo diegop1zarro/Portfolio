@@ -92,4 +92,7 @@ h4{
  display:inline-flex;
  
 }
+h2:hover {
+    font-size: 60px;
+}
 }
