@@ -1,11 +1,14 @@
-import React from 'react'
-import CV_Diego from '../../CV_Diego.pdf'
-import EmailJS from '../EmailJS/EmailJS'
+import React from 'react';
+import CV_Diego from '../../CV_Diego.pdf';
+import EmailJS from '../EmailJS/EmailJS';
+import Swing from 'react-reveal/Swing'; // me gusta 10/10
 import './Contact.css'
 export default function Contact() {
   return (
     <div className='Contact'>
+      <Swing>
     <h2>Mis redes y contacto</h2>
+      </Swing>
     <EmailJS/>
    <div id='body'>
  <div id='menu'>

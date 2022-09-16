@@ -104,4 +104,8 @@ font: normal 13px arial, helvetica, sans-serif;
                 margin-left: 0px;
                 font-size: 10px;
             }
+    
+    .Contact h2:hover{
+        font-size: 55px;
+    }
 }

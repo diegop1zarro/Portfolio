@@ -2,11 +2,14 @@ import React from 'react';
 import dogs from './image/dogs.png';
 import henryshoes from './image/henryshoes.png';
 import videogame from './image/videogame.png';
+import Swing from 'react-reveal/Swing';
 import './Projects.css'
 export default function Projects() {
   return (
     <div className='Projects'>
+      <Swing>
         <h2>Mis Proyectos</h2>
+      </Swing>
         <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
   <div className="carousel-inner">
     <div className="carousel-item active">

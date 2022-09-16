@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
-// import Fade from 'react-reveal/Fade';
-// import { Container } from 'react-bootstrap';
+import Fade from 'react-reveal/Fade';
 import { Icon } from '@iconify/react';
 import postgresqlIcon from '@iconify-icons/logos/postgresql';
 import css3 from '@iconify-icons/logos/css-3';
@@ -12,14 +11,9 @@ import reactIcon from '@iconify-icons/logos/react';
 import reduxIcon from '@iconify-icons/logos/redux';
 import sequelizeIcon from '@iconify-icons/logos/sequelize';
 import expressIcon from '@iconify-icons/logos/express';
-// import passportIcon from '@iconify-icons/logos/passport';
-// import gatsbyIcon from '@iconify-icons/logos/gatsby';
 import sassIcon from '@iconify-icons/logos/sass';
-// import graphqlIcon from '@iconify-icons/logos/graphql';
-// import mysqlIcon from '@iconify-icons/logos/mysql';
-// import firebaseIcon from '@iconify-icons/logos/firebase';
-// import Title from '../Title/Title';
 import Card from './Card/Card';
+import Swing from 'react-reveal/Swing';
 import  './Skills.css';
 
 const Skills = () => {
@@ -40,7 +34,10 @@ const Skills = () => {
 ]
   return (
     <div className='container_main'>
+      <Swing>
             <h2>Tecnologías</h2>
+      </Swing>
+      <Fade delay={1500} top cascade>
             <div className='container_logos'>
                 {logos.map((k, i) => (
                     <div className='logo' key={i}>
@@ -48,6 +45,7 @@ const Skills = () => {
                     </div>
                 ))}
             </div>
+      </Fade>
         </div>
   );
 };

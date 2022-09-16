@@ -52,6 +52,7 @@ h2:hover{
 }
 .Projects_container p{
     font-size: 25px;
+    color: #fdf0d5;
 }
 .projects_svg{
     width:80px;
@@ -60,7 +61,7 @@ a{
     text-decoration-color: #669bbc;
 }
 h4{
-    color: beige;
+    color: #fdf0d5;
     font-size: 30px;
     text-decoration: none;
 }

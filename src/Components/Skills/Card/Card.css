@@ -43,7 +43,7 @@
     filter: grayscale(100%) saturate(200%) brightness(2);
 }
 .subtitle{
-    color: white;
+    color: #fdf0d5;
     text-transform: capitalize;
     text-align: center;
     font-size: 26px;
