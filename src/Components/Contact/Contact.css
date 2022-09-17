@@ -106,27 +106,13 @@ margin-top: 5px;
 .Contact h2:hover{
     font-size: 55px;
 }
-#item-uno a {
-    border-bottom:4px solid #f00;
-    }
-    
-    #item-dos a {
-    border-bottom:4px solid #f80;
-    }
-    
-    #item-tres a {
-    border-bottom:4px solid #8f0;
-    }
-    
-    #item-cuatro a {
-        border-bottom:4px solid #0ff;
-    }
-    
-    #item-cinco a {
-    border-bottom:4px solid #08f;
-    }
-    
-    #item-seis a {
-    border-bottom:4px solid #9900ff;
-    }
+#menu{
+    display: inline;
+}
+#menu ul li a {
+    display: inline;
+    margin: 2px;
+    background-color: #000;
+padding: 10px;
+}
 }
