@@ -23,7 +23,7 @@ export default function Projects() {
        <div className='tecnologías'>
       <p>Proyecto individual "SPA" utilizando API "the dogs api".
       </p>
-      <p>Tecnologías utilizadas:</p>
+      <h5>Tecnologías utilizadas:</h5>
       <span>SQL</span>
       <span>NodeJS</span>
       <span>Sequelize</span>
@@ -75,7 +75,7 @@ export default function Projects() {
        </div>
        <div className='tecnologías'>
       <p>Proyecto individual "SPA" utilizando API de videogames "Rawg". </p>
-      <p>Tecnologías utilizadas:</p>
+      <h5>Tecnologías utilizadas:</h5>
       <span>SQL</span>
       <span>NodeJS</span>
       <span>Sequelize</span>
