@@ -41,8 +41,8 @@ font-size: 60px;
 }
 .About_MContainer p{
     font-size: 30px;
-    /* color:white; */
     color:#fdf0d5;
+    text-align:left;
     /* background-color: white; */
 }
 .About img{
