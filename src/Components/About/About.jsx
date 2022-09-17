@@ -10,7 +10,7 @@ export default function About() {
       <Swing>
         <h2>Un poco sobre mi</h2>
       </Swing>
-            <h3>Diego Pizarro</h3>
+            <h3>Diego E. Pizarro A.</h3>
         <div className="About_MContainer">
         <p>
           <Fade delay={1200} top cascade>
@@ -23,7 +23,7 @@ export default function About() {
         <div>
           <a className='cinta uno'>
         <img src={fotodiego} alt='diego' />
-        <p>nac: 04/11/2002</p>
+        <div className='nac'>nac: 04/11/2002</div>
           </a>
         </div>
         {/* <a href="" download="">Download Text</a> */}

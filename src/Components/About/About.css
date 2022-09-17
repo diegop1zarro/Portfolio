@@ -28,8 +28,8 @@
      color: transparent; 
     }
 .About h3{
-    color:#fdf0d5;
-
+color:#fdf0d5;
+font-size: 50px;    
 }
 .About h3:hover{
 transition: 0.5s;
@@ -43,7 +43,12 @@ font-size: 60px;
     font-size: 30px;
     color:#fdf0d5;
     text-align:left;
+    margin: 20px
     /* background-color: white; */
+}
+.nac{
+    color:#fdf0d5;
+    font-size: 25px;
 }
 .About img{
     width: 250px;
