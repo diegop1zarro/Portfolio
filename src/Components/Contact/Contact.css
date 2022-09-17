@@ -107,8 +107,9 @@ margin-top: 5px;
     font-size: 55px;
 }
 #menu{
-    display: inline;
+    display: flex;
     align-items: center;
+    justify-content: center;
 }
 #menu ul li a {
     display: inline;
