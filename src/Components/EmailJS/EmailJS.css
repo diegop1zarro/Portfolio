@@ -48,4 +48,24 @@
     resize: none;
     display: block;
 }
-
+.éxito{
+    color: #86df00;
+    font-size: 20px;
+    background-color: #001c2b;
+    border-radius: 2px;
+    border: 1px solid #3a0000;
+    padding: 3px;
+}
+.form_label{
+    display: block;
+}
+.error{
+    color: red;
+    font-size: 20px;
+    background-color: #001c2b;
+    border-radius: 2px;
+    border: 1px solid #3a0000;
+    padding: 3px;
+    /* position:absolute; */
+    margin-left: 5px;
+}

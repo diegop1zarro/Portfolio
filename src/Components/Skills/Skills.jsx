@@ -37,7 +37,7 @@ const Skills = () => {
       <Swing>
             <h2>Tecnologías</h2>
       </Swing>
-      <Fade delay={1200} top cascade>
+      <Fade delay={2000} top cascade>
             <div className='container_logos'>
                 {logos.map((k, i) => (
                     <div className='logo' key={i}>
