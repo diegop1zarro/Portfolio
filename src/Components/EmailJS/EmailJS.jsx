@@ -34,7 +34,7 @@ const [enviado , setEnviado] = useState(false)
              </div>
              <div className="form_label">
               <label>Email :</label>
-              <Field type="email" name="user_email" />
+              <Field type="email" name="user_email" placeholder="coloque su email" />
              <ErrorMessage name="user_email" component={()=>(
              <span  className="error">{errors.user_email}</span> 
              )}/> 
