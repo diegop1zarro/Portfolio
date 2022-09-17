@@ -7,7 +7,8 @@ margin-top: 5px;
 }
 
 #menu {
-    width: 900px;
+    /* width: 900px; */
+    width: 90%;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -96,20 +97,13 @@ margin-top: 5px;
     }
 
 @media screen and (max-width: 500px) {
-    /* #menu ul li {
-        margin: 0;
-        float:none;
-        } */
-        #menu ul li a {
-            display:inline;
-            text-decoration: none;
-            }
-        #body{
-                margin-left: 0px;
-                font-size: 10px;
-            }
-    
-    .Contact h2:hover{
-        font-size: 55px;
+       
+#body{
+        margin-left: 0px;
+        font-size: 10px;
     }
+
+.Contact h2:hover{
+    font-size: 55px;
+}
 }
