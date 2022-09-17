@@ -4,6 +4,7 @@
     margin: 10px;
 }
 .All_Title{
+  background-color: black;
     background-position:0 100% ;
     background-repeat: no-repeat;
     -webkit-background-size: 100% 4px;
