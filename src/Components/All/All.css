@@ -79,7 +79,7 @@
 } 
 .border_All{
   padding: 5px;
-  border: 0.5px rgba(65, 65, 65, 0.39) dashed;
+  border: 1px rgba(83, 80, 80, 0.39) dashed;
 }
 @media screen and (max-width: 500px) {
 .text{
