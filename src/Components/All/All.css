@@ -77,8 +77,10 @@
     stroke-dashoffset: -400;
   }
 } 
-
-
+.border_All{
+  padding: 5px;
+  border: 0.5px rgba(65, 65, 65, 0.39) dashed;
+}
 @media screen and (max-width: 500px) {
 .text{
   font-size: 150px;

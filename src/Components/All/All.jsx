@@ -8,8 +8,8 @@ import './All.css'
 export default function All() {
   return (
        <div className='All'>
-     {/* <Fade top cascade> */}
-     <RubberBand>
+          <div className='border_All'>
+          <RubberBand>
 <div className='All_Title'>
 {/* <h1>Bienvenidos a mi portfolio</h1> */}
 <svg viewBox="0 0 1320 100">
@@ -32,11 +32,22 @@ export default function All() {
 </svg>
 </div>
 </RubberBand>
+          </div>
+          <div className='border_All'>
+          <About/>
+          </div>
+          <div className='border_All'>
+          <Projects/>
+          </div>
+          <div className='border_All'>
+          <Skills/>
+          </div>
+          <div className='border_All'>
+          <Contact/>
+          </div>
+     {/* <Fade top cascade> */}
+    
 {/* </Fade> */}
-        <About/>
-        <Projects/>
-        <Skills/>
-        <Contact/>
     </div>
   )
 }
