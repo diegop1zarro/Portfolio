@@ -7,6 +7,7 @@
     border-right: #fdf0d5 5px solid;
     border-bottom: #001c2b 5px solid;
     border-left: #669bbc 5px solid;
+    background-color: rgba(0, 0, 0, 0.452);
 }
 /* .About:hover{
     transition: 0.5s;
