@@ -14,7 +14,6 @@ import expressIcon from '@iconify-icons/logos/express';
 import sassIcon from '@iconify-icons/logos/sass';
 import Card from './Card/Card';
 import Swing from 'react-reveal/Swing';
-import Shake from 'react-reveal/Shake';
 import  './Skills.css';
 
 const Skills = () => {
@@ -42,9 +41,7 @@ const Skills = () => {
             <div className='container_logos'>
                 {logos.map((k, i) => (
                     <div className='logo' key={i}>
-                      <Shake>
                         <Card img={k[0]} name={k[1]} />
-                      </Shake>
                     </div>
                 ))}
             </div>
