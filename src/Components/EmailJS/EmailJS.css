@@ -3,10 +3,10 @@
     padding: 16px;
     margin: 0 auto;
     color: beige;
-    border-top: #3a0000 5px solid;
-    border-right: #fdf0d5 5px solid;
-    border-bottom: #001c2b 5px solid;
-    border-left: #669bbc 5px solid;
+    border-top: #3a0000 8px solid;
+    border-right: #fdf0d5 8px solid;
+    border-bottom: #001c2b 8px solid;
+    border-left: #669bbc 8px solid;
     font-size: 18px;
     background-color: rgba(0, 0, 0, 0.432);
 }
