@@ -7,7 +7,9 @@
     border-right: #fdf0d5 7px solid;
     border-bottom: #001c2b 7px solid;
     border-left: #669bbc 7px solid;
-    background-color: rgba(0, 0, 0, 0.452);
+    /* background-color: rgba(0, 0, 0, 0.452); */
+    background: linear-gradient(#0500009a,#00070cb0) ;
+
 }
 /* .About:hover{
     transition: 0.5s;
@@ -48,6 +50,7 @@ font-size: 60px;
     margin: 20px;
     /* background-color: white; */
 }
+
 .nac{
     color:#fdf0d5;
     font-size: 25px;

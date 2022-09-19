@@ -15,9 +15,9 @@ export default function About() {
         <p>
           <Fade delay={1200} top cascade>
           Hola mi nombre es Diego y soy desarrollador web Full Stack, mis conocimientos se los debo a Henry, un bootcamp intensivo el cúal no solo me enseño de tecnologías si no a nunca rendirme, a pensar en positivo y que todo tiene una solución, si usted está buscando una persona que sea responsable, apasionada y que le guste hacer amigos, no dude en contactarme.
-          <div>
+          <span>
           Email: diego.cab.1016@gmail.com
-          </div>
+          </span>
           </Fade>
         </p>
         <div>
